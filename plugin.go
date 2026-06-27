@@ -23,10 +23,10 @@ type Config struct {
 
 func GetGotifyPluginInfo() plugin.Info {
 	return plugin.Info{
-		ModulePath:  "github.com/solarkennedy/gotify-rss",
+		ModulePath:  "github.com/disconn3ct/gotify-archsec",
 		Version:     "0.0.1",
-		Author:      "solarkennedy",
-		Website:     "https://github.com/solarkennedy/gotify-rss",
+		Author:      "disconn3ct",
+		Website:     "https://github.com/disconn3ct/gotify-archsec",
 		Description: "Poll RSS Feeds for Notifications",
 		License:     "GPLv3+",
 		Name:        "rss",
